@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/artigo-style.css">
+    <title>Artigo</title>
+</head>
+<body>
+    <header>
+        <div class="OPPlogo">
+            <img src="../assets/images/OPP-Logo.svg" alt="OPP">
+            <p>Observatório de Políticas Públicas</p>
+        </div>
+
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Quem somos</a>
+            <a href="#">Parceiros</a>
+            <a href="#">Login</a>
+        </nav>
+
+        <div class="pesquisa">
+            <input type="text" placeholder="Pesquise">
+            <img src="../assets/icons/search.svg" alt="Pesquisa">
+        </div>
+    </header>
+
+    <main>
+        <article class="metadados">
+            <h1>Problematizando o conceito de políticas públicas: desafios à análise e à prática do planejamento e da gestão</h1>
+            <address>
+                Autor: Everaldo Santos Melazzo
+            </address>
+            <time pubdate datetime="2022-09-13 20:15"> Terça-feira, 13 de setembro de 2022 - 20:15</time>
+            <div id="artigoPDF"></div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container-development">
+            <p>Desenvolvido por:</p>
+    
+            <div class="container-logos">
+                <img src="../assets/images/IFRO-Logo-branca-vertical.svg" alt="Logo do IFRO">
+                <img src="../assets/images/FSLAB-Logo.svg" alt="Logo do FSLab">
+            </div>
+        </div>
+
+        <address>
+            <p>Contato</p>
+            
+            <div class="container-chat">
+                <img src="../assets/icons/chat (2) 1.svg" alt="Chat">
+                <a href="#">Fale conosco</a>
+            </div>
+
+            <div class="container-fone">
+                <img src="../assets/icons/local-phone 1.svg" alt="Fone">
+                <a href="tel://556921010721">(69) 2101-0721</a>
+            </div>
+
+            <div class="container-mail">
+                <img src="../assets/icons/at 1.svg" alt="Email">
+                <a href="mailto://app.vilhena@ifro.edu.br">app.vilhena@ifro.edu.br</a>
+            </div>
+
+            <div class="container-local">
+                <img src="../assets/icons/location-pin 1.svg" alt="Localização">
+                <p>Rodovia BR-174, Km 3 s/n Zona Urbana, Vilhena - RO, 76980-000</p>
+            </div>
+        </address>
+
+        <div class="container-social">
+            <p>Redes Sociais</p>
+            <div>
+                <img src="../assets/icons/social-instagram 2.svg" alt="Instagram">
+                <img src="../assets/icons/facebook-fill 1.svg" alt="Facebook">
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/scripts/pdfobject/pdfobject.js"></script>
+
+    <script>
+        PDFObject.embed("../assets/docs/LoremIpsum.pdf", "#artigoPDF");
+    </script>
+</body>
+</html>
