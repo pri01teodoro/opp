@@ -1,0 +1,71 @@
+:root {
+    --cor-fundo: #F5F5F5;
+    --cor-fundo-components: #FFFFFF;
+    --cor-texto: #010101
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container-header {
+    width: 100%;
+    height: 160px;
+    background-color: var(--cor-fundo);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 160px;
+    margin: auto;
+    background-color: var(--cor-fundo);
+}
+
+.OPPlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 170px;
+}
+
+.OPPlogo p {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 488px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+nav a:hover {
+    border-bottom: 2px var(--cor-texto) solid;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px var(--cor-texto) solid;
+    height: 50px;
+}
+
+.pesquisa input{
+    display: flex;
+    justify-items: center;
+    width: 266px;
+    height: 48px;
+    padding: 5px;
+    border: none;
+}
