@@ -1,0 +1,13 @@
+.content{
+  margin-top: 64px;
+}
+
+.content > p{
+  text-align: justify;
+
+  margin-bottom: 16px;
+}
+
+.content > p:last-child{
+  margin-bottom: 0;
+}

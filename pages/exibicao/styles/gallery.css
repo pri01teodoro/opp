@@ -1,0 +1,16 @@
+.gallery{
+  margin-top: 40px;
+}
+
+.gallery > .title{
+  font-size: 24px;
+}
+
+.gallery > .pictures{
+  margin-top: 40px;
+
+  display: flex;
+  overflow: auto;
+
+  gap: 40px;
+}

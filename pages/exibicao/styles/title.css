@@ -1,0 +1,13 @@
+.info{
+  text-align: center;
+}
+
+.info > .title{
+  font-size: 24px;
+}
+
+.info > .subtitle{
+  font-size: 14px;
+
+  margin-top: 16px;
+}
