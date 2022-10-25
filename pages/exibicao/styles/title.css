@@ -1,13 +1,25 @@
-.info{
+.info {
   text-align: center;
 }
 
-.info > .title{
-  font-size: 24px;
+.info>.title {
+  font-size: 18px;
 }
 
-.info > .subtitle{
+.info>.subtitle {
   font-size: 14px;
 
   margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .info>.title {
+    font-size: 24px;
+  }
+
+  .info>.subtitle {
+    font-size: 14px;
+
+    margin-top: 16px;
+  }
 }
