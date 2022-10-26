@@ -1,7 +1,9 @@
 :root {
     --cor-fundo: #F5F5F5;
     --cor-fundo-components: #FFFFFF;
-    --cor-texto: #010101
+    --cor-texto: #010101;
+    --cor-botao: #494C4E;
+    --cor-botao-hover: #565d61;
 }
 
 * {
@@ -10,10 +12,10 @@
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
+body {
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     margin: auto;
 }
 
@@ -65,7 +67,10 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     border: 1px var(--cor-texto) solid;
+    border-radius: 30px;
+    width: 300px;
     height: 50px;
+    background-color: var(--cor-fundo-components);
 }
 
 .pesquisa input {
@@ -75,16 +80,81 @@ nav a:hover {
     height: 48px;
     padding: 5px;
     border: none;
+    border-radius: 30px;
+    outline: none;
+    background-color: var(--cor-fundo-components);
 }
+
 
 /* ================================================================ */
 
-.metadados{
-    
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--cor-fundo);
+    width: 100%;
+}
+
+.metadados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60rem;
+    width: 1440px;
+    margin: auto;
+    border: 1px var(--cor-fundo) solid;
+    border-radius: 30px;
+    background-color: var(--cor-fundo-components);
+}
+
+.metadados h1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 920px;
+    margin-top: 80px;
+}
+
+.metadados address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.metadados p {
+    margin-top: 18px;
+}
+
+.metadados time {
+    margin: 18px;
+}
+
+main a {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: right;
+    align-items: right;
+    text-decoration: none;
+    color: var(--cor-fundo-components);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--cor-botao);
+    align-items: right;
+    margin-left: 76%;
+}
+
+main a:hover {
+    background-color: var(--cor-botao-hover);
 }
 
 #artigoPDF {
-    height: 50rem;
-    width: 1440px;
-    border: 1rem solid rgba(0, 0, 0, .1);
+    height: 30rem;
+    width: 1280px;
+    margin: 0px 0px 80px 0;
+    /* border: 1rem solid rgba(0, 0, 0, .1); */
 }
