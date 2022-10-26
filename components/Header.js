@@ -1,4 +1,4 @@
-const header = (color) => {
+const header = (color, children) => {
   return (`
     <style>
       .bg{
@@ -6,7 +6,7 @@ const header = (color) => {
       }
     </style>
     <nav class="bg">
-      AAAAAAA
+      ${children}
     </nav>
   `)
 }
@@ -15,11 +15,11 @@ class Header extends HTMLElement {
   constructor() {
     super();
 
-    console.log(this.attributes)
+    console.log(this.innerHTML)
 
     const {color} = this.attributes
 
-    this.innerHTML = `${header(color.nodeValue)}`
+    this.innerHTML = `${header(color.nodeValue, this.innerHTML)}`
   }
 }
 
