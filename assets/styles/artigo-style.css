@@ -177,6 +177,10 @@ main a:hover {
     flex-direction: column;
 }
 
+.container-development p{
+    color: var(--cor-fundo);
+}
+
 .container-logos{
     display: flex;
     justify-content: start;
@@ -187,10 +191,18 @@ main a:hover {
     margin-right: 32px;
 }
 
+.container-logos p{
+    color: var(--cor-fundo);
+}
+
 .container-contato{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.container-contato p{
+    color:var(--cor-fundo);
 }
 
 .container-chat{
@@ -221,7 +233,9 @@ main a:hover {
     flex-direction: column;
 }
 
-
+.container-social p{
+    color: var(--cor-fundo);
+}
 
 .redes{
     display: flex;
