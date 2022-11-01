@@ -1,0 +1,52 @@
+:root{
+    --cinza: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.background{
+    background-color: var(--cinza);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+
+.nav-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link{
+    color: black;
+  
+}
+
+.caixa-pesquisa{
+    width: 265px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    box-shadow: none;
+    border: none;
+    outline: 0;
+}
