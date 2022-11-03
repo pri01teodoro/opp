@@ -1,5 +1,6 @@
 :root{
     --cinza: #F5F5F5;
+    --branco: #FFFFFF;
 }
 
 * {
@@ -21,6 +22,7 @@
     width: 1200px;
     margin: 0 auto;
     margin-top: 64px;
+    margin-bottom: 36px;
 }
 
 
@@ -76,3 +78,103 @@
     appearance: none;
     cursor: pointer;
 }
+
+.caixa-main{
+    background-color: var(--branco);
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+.container-projeto{
+    display: flex;
+    margin-left: 40px;
+    padding-top: 150px;
+}
+
+.titulo{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+.container-paragrafo{
+    margin-top: 80px;
+}
+
+.paragrafo{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.container-caixa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    margin-left: 96px;
+    justify-content: space-between;
+}
+
+.caixa-membros{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(30, 83, 35, 0.2);
+    border-radius: 31px;
+    width: 243px;
+    height: 376px;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo1{
+    font-family: 'Inter' sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 32px;
+    line-height: 20px;
+}
+
+.info{
+    font-family: 'Inter' sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 16px;
+    width: 224px;
+}
+
+.lattes{
+    font-family: 'Inter' sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-decoration:none;
+    color: #000000;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.email{
+    font-family: 'Inter' sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #000000;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+
