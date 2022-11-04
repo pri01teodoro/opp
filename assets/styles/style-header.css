@@ -84,6 +84,7 @@
     width: 1200px;
     margin: 0 auto;
     border-radius: 20px;
+    margin-bottom: 96px;
 }
 
 
@@ -120,8 +121,9 @@
 .container-caixa{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 56px;
-    margin-left: 96px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 104px;
     justify-content: space-between;
 }
 
@@ -131,6 +133,7 @@
     border-radius: 31px;
     width: 243px;
     height: 376px;
+    margin-top: 112px;
 }
 
 .container-info{
