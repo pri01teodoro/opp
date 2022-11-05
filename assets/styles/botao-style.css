@@ -1,0 +1,32 @@
+:root {
+    --cor-botao: #494C4E;
+    --cor-texto: #FFFFFF;
+    --cor-shadow: #1070b133;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.botao {
+    color: #FFFFFF;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    background-color: var(--cor-botao);
+    width: 138px;
+    height: 32px;
+    left: 1160px;
+    top: 1408px;
+    border-radius: 3px;
+    box-shadow: 5px 20px 50px var(--cor-shadow);
+    border-radius: 3px;
+}
