@@ -1,0 +1,84 @@
+:root{
+    --cinza: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;    
+}
+
+.background{
+    background-color: var(--cinza);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+
+.nav-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    
+  
+}
+
+.link:hover{
+    border-bottom: 3px solid  rgb(143, 214, 148);
+    font-weight: 700;
+    /* rgb(143, 214, 148) 71%, rgb(0, 163, 133) 100%, rgb(143, 214, 148) 71% */
+}
+
+.link:focus{
+    border-bottom: 3px solid  rgb(143, 214, 148);
+    font-weight: 700;
+}
+
+.caixa-pesquisa{
+    width: 265px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9ACA9;
+}
+
+.input{
+    box-shadow: none;
+    border: none;
+    outline: 0;
+}
+
+.botao-busca{
+    background: url(/assets/icons/search.svg);
+    background-repeat: no-repeat;
+    box-shadow: none;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+}
