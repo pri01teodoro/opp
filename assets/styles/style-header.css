@@ -46,6 +46,13 @@
     /* rgb(143, 214, 148) 71%, rgb(0, 163, 133) 100%, rgb(143, 214, 148) 71% */
 }
 
+
+
+.link:focus{
+    border-bottom: 3px solid  rgb(143, 214, 148);
+    font-weight: 700;
+}
+
 .caixa-pesquisa{
     width: 265px;
     height: 40px;
@@ -178,6 +185,7 @@
     text-align: center;
     margin-top: 8px;
 }
+
 
 
 
